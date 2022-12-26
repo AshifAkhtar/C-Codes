@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int area(int a,int b){
+    return a*b;
+}
+int pri(int a,int b){
+    return (2*(a+b));
+}
+
+
+int main (){
+  int l , b;
+  cout<<"enter the len and bre: "<<endl;
+  cin>>l>>b;
+  
+  int fir=area(l,b);
+  int sec =pri(l,b);
+  
+  cout<<"Area is:"<<fir;
+  cout<<"Pri is :"<<sec;
+  
+  return 0;
+  
+}
